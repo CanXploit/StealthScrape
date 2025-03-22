@@ -13,7 +13,7 @@ colorama.init()
 
 MAX_RETRIES = 2
 DELAY = 3
-NUM_WORKERS = 10
+NUM_WORKERS = 200
 
 file_count = 0
 total_size = 0
