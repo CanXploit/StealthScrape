@@ -53,6 +53,10 @@ Below is a screenshot showing how StealthScrape works from the terminal:
 
 ![StealthScrape Terminal](./pics/pic1.png)
 ![StealthScrape Terminal2](./pics/pic2.png)
+
+## Next Updates
+
+**Fetch Files Downloaded For any data impotent like "Key" "data" "token" and other**
 ## License
 
 StealthScrape is licensed under the License. See the LICENSE file for more details.
