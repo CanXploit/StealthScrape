@@ -11,15 +11,13 @@ import colorama
 
 colorama.init()
 
-# Configuration
 MAX_RETRIES = 2
 DELAY = 3
 NUM_WORKERS = 10
 
-# Track the total file count and size
 file_count = 0
 total_size = 0
-proxies = None  # Placeholder for proxy settings
+proxies = None  
 
 
 def ask_for_proxies():
@@ -42,7 +40,7 @@ def ask_for_proxies():
             try:
                 with open(proxy_file, "r") as file:
                     proxy_addresses = file.readlines()
-                    proxy_addresses = [proxy.strip() for proxy in proxy_addresses]  # Remove any extra whitespace
+                    proxy_addresses = [proxy.strip() for proxy in proxy_addresses] 
                     proxies = [{proxy_type: f"http://{proxy}"} for proxy in proxy_addresses]
                 log("proxy_set", f"Loaded {len(proxies)} proxies from file.")
             except FileNotFoundError:
@@ -64,7 +62,7 @@ def retry_request(url, max_retries=MAX_RETRIES, delay=DELAY):
         try:
             update_count()
             if proxies:
-                proxy = random.choice(proxies)  # Choose a random proxy if using a list
+                proxy = random.choice(proxies) 
                 response = requests.get(url, stream=True, proxies=proxy)
             else:
                 response = requests.get(url, stream=True)
@@ -98,22 +96,22 @@ def download_file(url, folder_path):
     
     try:
         update_count()
-        # Calculate size while downloading
+     
         file_size = 0
         with open(file_path, "wb") as file:
             for chunk in response.iter_content(chunk_size=8192):
                 file.write(chunk)
                 file_size += len(chunk)
         
-        # Update the global counters
+     
         file_count += 1
         total_size += file_size
 
-        # Convert size to MB for easier readability
+  
         size_mb = file_size / (1024 * 1024)
         log("download_success", f"Downloaded {filename} to {file_path}, Size: {size_mb:.2f} MB")
         
-        # Call update_count() to print status
+     
         update_count()
 
         return True
@@ -136,7 +134,7 @@ def worker(queue, folder_path):
 
 def grab_links(domain):
     global proxies
-    # Ask for proxy settings inside grab_links
+  
     ask_for_proxies()
     
     url = f"https://web.archive.org/cdx/search/cdx?url=*.[{domain}]/*&collapse=urlkey&output=text&fl=original"
