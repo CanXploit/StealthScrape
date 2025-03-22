@@ -56,3 +56,5 @@ Below is a screenshot showing how StealthScrape works from the terminal:
 ## License
 
 StealthScrape is licensed under the License. See the LICENSE file for more details.
+
+# ALL FOR EDUCATIONAL PURPOSES, I DONT NOT CONDONE OR PROMOTE HACKING OR GAINING UNFAIR ADVANTAGES IN ANY SITE OR IP
