@@ -18,7 +18,7 @@ def print_banner():
                                 ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱ ╱╱╱╱╱╱╱╱╱╱╱╱╰╯
                                 {Fore.RESET}
                                     By JustXploit
-                                    In Github: @CanXplot
+                                    In Github: @CanXploit
                                                                            
 """
 
