@@ -1,15 +1,15 @@
 from datetime import datetime
 
-# ANSI Color Codes
+
 COLORS = {
-    "INFO": "\033[94m",   # Blue
-    "SUCCESS": "\033[92m",  # Green
-    "WARNING": "\033[93m",  # Yellow
-    "ERROR": "\033[91m",    # Red
-    "RESET": "\033[0m"     # Reset color
+    "INFO": "\033[94m",  
+    "SUCCESS": "\033[92m",
+    "WARNING": "\033[93m", 
+    "ERROR": "\033[91m",    
+    "RESET": "\033[0m"   
 }
 
-# Log messages dictionary
+
 LOG_MESSAGES = {
     "get_links": ("INFO", "Getting links for domain {}..."),
     "links_grabbed": ("SUCCESS", "Grabbed {} links."),
