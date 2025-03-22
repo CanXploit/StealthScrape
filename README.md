@@ -1,3 +1,4 @@
+![Project Thumbnail](./pics/thum.png)
 # StealthScrape
 
 **StealthScrape** is a free and open-source tool designed to scrape and grab files of various types (e.g., PDF, XLS, XML, HTML, HTM, PHP, JS, CSS, etc.) from a specified website domain. It is lightweight, customizable, and easy to use.
