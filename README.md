@@ -59,8 +59,20 @@ Below is a screenshot showing how StealthScrape works from the terminal:
 **Fetch Files Downloaded For any data impotent like "Key" "data" "token" and other**
 
 ## Videos
-![Video](https://www.youtube.com/watch?v=lDvJ6BRHEYY)
+![ShowCase](https://www.youtube.com/watch?v=lDvJ6BRHEYY)
 
+## The Team
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/CanXploit">
+        <img src="https://github.com/CanXploit.png" width="100px;" alt="User1"/>
+        <br /><sub><b>Dev</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 ## License
 
 StealthScrape is licensed under the License. See the LICENSE file for more details.
