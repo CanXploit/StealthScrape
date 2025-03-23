@@ -73,6 +73,7 @@ Below is a screenshot showing how StealthScrape works from the terminal:
     </td>
   </tr>
 </table>
+
 ## License
 
 StealthScrape is licensed under the License. See the LICENSE file for more details.
