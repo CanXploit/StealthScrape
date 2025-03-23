@@ -67,8 +67,8 @@ Below is a screenshot showing how StealthScrape works from the terminal:
   <tr>
     <td align="center">
       <a href="https://github.com/CanXploit">
-        <img src="https://github.com/CanXploit.png" width="100px;" alt="User1"/>
-        <br /><sub><b>Dev</b></sub>
+        <img src="https://github.com/CanXploit.png" width="160px;" alt="CanXploit"/>
+        <br /><sub><b>@CanXploit</b></sub>
       </a>
     </td>
   </tr>
